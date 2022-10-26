@@ -448,6 +448,7 @@ footer {
   list-style: none;
   font-size: 24px;
   cursor: pointer;
+  display: none;
 }
 
 .fa-xmark {
@@ -549,6 +550,10 @@ footer {
 
   .fa-bars:hover {
     cursor: pointer;
+  }
+
+  .btn__menu--close {
+    display: block;
   }
 
   .menu__backdrop--li {
