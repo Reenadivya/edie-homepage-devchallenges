@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/116ba3a803.js"
+      crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="landing__page">
+      <nav class="nav__bar">
+        <h2 class="name__logo">Edie</h2>
+        <ul class="nav__bar--links">
+          <li><a href="#landing__page" class="nav__bar--link">Home</a></li>
+          <li>
+            <a href="#demand__services" class="nav__bar--link">Services</a>
+          </li>
+          <li><a href="#good__design" class="nav__bar--link">Our Works</a></li>
+          <li><a href="#testimonial" class="nav__bar--link">Clients</a></li>
+          <li><a href="" class="nav__bar--link">Contact</a></li>
+        </ul>
+        <button class="btn__menu btn__menu--close">
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <ul class="nav__bar--links nav__bar--link-menu">
+            <li class="menu__backdrop--li">
+              <a
+                href="#landing__page"
+                class="nav__bar--link nav__bar--links-menu"
+                >Home</a
+              >
+            </li>
+            <li class="menu__backdrop--li">
+              <a
+                href="#demand__services"
+                class="nav__bar--link nav__bar--links-menu"
+                >Services</a
+              >
+            </li>
+            <li class="menu__backdrop--li">
+              <a
+                href="#good__design"
+                class="nav__bar--link nav__bar--links-menu"
+                >Our Works</a
+              >
+            </li>
+            <li class="menu__backdrop--li">
+              <a href="#testimonial" class="nav__bar--link nav__bar--links-menu"
+                >Clients</a
+              >
+            </li>
+            <li class="menu__backdrop--li">
+              <a href="" class="nav__bar--link nav__bar--links-menu">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__container">
+        <div class="header__container--text">
+          <h3 class="header__question">Unhappy with your website?</h3>
+          <h1 class="header">We create beautiful and fast web services</h1>
+        </div>
+        <img class="header__img" src="./heroImage.jpg" alt="" />
+        <div class="header__container--text subheading">
+          <h1 class="header motto">Story, emotion and purpose</h1>
+          <p class="header__question mission">
+            We help transform your ideas into real world applications that will
+            outperform your toughest competition and help you achieve your
+            strategic goals in short period of time.
+          </p>
+          <form action="" class="header__question form">
+            <label class="contact__label" for="contact"
+              >Want us to contact you?</label
+            ><br />
+            <input class="email__input" type="email" placeholder="Email" />
+            <button class="btn">Join</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="demand__services">
+      <h2 class="header header2">We offer high demand services</h2>
+      <div class="main">
+        <div class="container">
+          <div class="subcontainer">
+            <div class="icon__box uxui">
+              <i class="fa-solid fa-pen"></i>
+            </div>
+            <h1 class="subcontainer--header">UI/UX Design</h1>
+            <p class="subcontainer--para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button class="btn2">Get started</button>
+          </div>
+        </div>
+        <div class="container middle__container">
+          <div class="subcontainer">
+            <div class="icon__box FE">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h1 class="subcontainer--header">Front End</h1>
+            <p class="subcontainer--para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button class="btn2 btn__normal">Get started</button>
+          </div>
+        </div>
+        <div class="container">
+          <div class="subcontainer">
+            <div class="icon__box BE">
+              <i class="fa-solid fa-server"></i>
+            </div>
+            <h1 class="subcontainer--header">Back End</h1>
+            <p class="subcontainer--para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button class="btn2">Get started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="good__design">
+      <h1 class="good__design--header">Good design means good business</h1>
+      <div class="img__container">
+        <div class="img__row1">
+          <div class="img__row1-pic1">
+            <img class="good__design--img" src="./smarthome.jpg" alt="" />
+            <p class="good__design--para">Full stack application</p>
+            <h2 class="good__design--heading">Smart home dashboard</h2>
+          </div>
+          <div class="img__row1-pic1 space__container">
+            <img class="good__design--img" src="./booking.png" alt="" />
+            <p class="good__design--para">UX/UI design</p>
+            <h2 class="good__design--heading">Onboard application</h2>
+          </div>
+        </div>
+        <div class="img__row2">
+          <div class="img__row1-pic1">
+            <img class="good__design--img" src="./onboard.png" alt="" />
+            <p class="good__design--para">Mobile application</p>
+            <h2 class="good__design--heading">Booking system</h2>
+          </div>
+          <div class="img__row1-pic1">
+            <img
+              class="good__design--img space__container"
+              src="./juice-product.png"
+              alt="" />
+            <p class="good__design--para">Front End application</p>
+            <h2 class="good__design--heading">Juice product homepage</h2>
+            <div class="see__more">
+              <p>see more <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team">
+      <div class="main__container">
+        <div class="left__container">
+          <p class="left__container--heading">Meet the team</p>
+          <h1 class="left__container--subheading">
+            We are chilled and a laidback team
+          </h1>
+          <p class="left__container--para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="right__container">
+          <div class="right__container--girlimg">
+            <img class="right__container--img" src="./person3.png" alt="" />
+          </div>
+          <div class="right__container--guysimg">
+            <img class="right__container--img" src="./person1.png" alt="" />
+            <img class="right__container--img" src="./person2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial">
+      <div class="testimonial__main">
+        <p class="quote">
+          “Fast and outstanding resutls. Edie understands their customer’s
+          needs. They have a young and talented team.”
+        </p>
+        <div class="testimonial__container">
+          <img class="testimonial__img" src="./person4.png" alt="" />
+          <div class="testimonial__container--text">
+            <h2 class="name">Carlos Tran</h2>
+            <p class="work">The Decorate Gatsby</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul class="nav__bar--links footer__navbar--links">
+        <li class="footer__li">
+          <a href="" class="nav__bar--link footer__navbar--link">Home</a>
+        </li>
+        <li class="footer__li">
+          <a href="" class="nav__bar--link footer__navbar--link">Services</a>
+        </li>
+        <li class="footer__li">
+          <a href="" class="nav__bar--link footer__navbar--link">Our Works</a>
+        </li>
+        <li class="footer__li">
+          <a href="" class="nav__bar--link footer__navbar--link">Clients</a>
+        </li>
+        <li class="footer__li">
+          <a href="" class="nav__bar--link footer__navbar--link">Contact</a>
+        </li>
+      </ul>
+      <div class="socials">
+        <h2 class="name__logo name__logo--footer">Edie</h2>
+        <img class="instagram" src="./instagram.svg" alt="" />
+        <img class="instagram" src="./linkedin.svg" alt="" />
+        <img class="instagram" src="./twitter.svg" alt="" />
+      </div>
+      <form action="" class="header__question form form--footer">
+        <label class="contact__label contact__label--footer" for="contact"
+          >Want us to contact you?</label
+        ><br />
+        <input class="email__input" type="email" placeholder="Email" />
+        <button class="btn">Join</button>
+      </form>
+    </footer>
+  </body>
+</html>
